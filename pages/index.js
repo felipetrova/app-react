@@ -1,4 +1,4 @@
-import * as GridStyle from "~/styles/Grid";
+import * as GridStyle from "../styles/Grid";
 
 const Index = () => {
   return (

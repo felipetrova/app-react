@@ -46,6 +46,10 @@ export const Col = styled.div`
     &.no-margin {
         margin: 0;
     }
+
+    &.no-padding{
+        padding: 0;
+    }
     
     ${({ general }) => general && widthGrid(general)}
 
