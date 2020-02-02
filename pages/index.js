@@ -1,11 +1,11 @@
-import * as GridStyle from "../styles/Grid";
+import React, { Component } from 'react';
 
-const Index = () => {
-  return (
-    <>
-      <h1>Hello App</h1>
-    </>
-  );
-};
+import Header from '../components/header/header'
 
-export default Index;
+export default class pages extends Component {
+  render() {
+    return (
+      <Header title={'React App Movies'}/>
+    );
+  }
+}
